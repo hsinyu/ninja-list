@@ -1,9 +1,12 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
+import Navbar from '../components/Navbar'
+import Footer from '../components/Footer'
 
 export default function Home() {
   return (
     <div className={styles.container}>
+      <Navbar />
       <h1>Homepage</h1>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore iusto
@@ -11,6 +14,7 @@ export default function Home() {
         distinctio illo debitis expedita accusamus minus veniam dolorum id?
         Maiores, repellendus.
       </p>
+      <Footer />
     </div>
   )
 }
