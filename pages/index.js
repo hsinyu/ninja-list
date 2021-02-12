@@ -7,7 +7,6 @@ import Footer from '../components/Footer'
 export default function Home() {
   return (
     <div className={styles.container}>
-      <Navbar />
       <h1>Homepage</h1>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore iusto
@@ -18,7 +17,6 @@ export default function Home() {
       <Link href="/ninjas">
         <a>See Ninja Listing</a>
       </Link>
-      <Footer />
     </div>
   )
 }

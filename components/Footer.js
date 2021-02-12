@@ -3,7 +3,7 @@ const Footer = () => {
     <div>
       <p>Copyright &copy; 2021 Ninja</p>
     </div>
-  );
+  )
 }
 
-export default Footer;
+export default Footer
