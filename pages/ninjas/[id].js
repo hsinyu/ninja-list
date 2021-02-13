@@ -28,8 +28,10 @@ const Details = ({ ninja }) => {
   console.log(ninja)
   return (
     <div>
-      <h1>Details Page</h1>
-
+      <h1>{ninja.name}</h1>
+      <p>{ninja.email}</p>
+      <p>{ninja.website}</p>
+      <p>{ninja.address.city}</p>
     </div>
   )
 }
